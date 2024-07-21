@@ -1,0 +1,273 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: #f8faff;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+}
+
+#div1 {
+  height: 70px;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 20px;
+  font-weight: bolder;
+  background-image: -webkit-linear-gradient(268deg, #26537f 0%, white 100%);
+}
+
+#div1 a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+#div1 a:hover {
+  color: black;
+}
+
+#div1 img {
+  height: 130px;
+  width: 130px;
+  position: relative;
+  border-radius: 50%;
+  margin-left: -20px;
+  margin-top: -10px;
+}
+
+/* -------------------------------------------------------------------------------------------------------------- */
+
+#banner img {
+  width: 100%;
+  height: 100%;
+}
+
+#banner #heading {
+  font-size: 50px;
+  position: absolute;
+  color: white;
+  top: 70%;
+  width: 100%;
+  text-align: center;
+  font-style: italic;
+}
+#banner h3 {
+  position: absolute;
+  color: white;
+  top: 90%;
+  width: 100%;
+  text-align: center;
+}
+
+#banner button {
+  position: absolute;
+  top: 100%;
+  /* width: 100%; */
+  height: 50px;
+  width: 100px;
+  border: 2px solid #131e37;
+  border-radius: 27px;
+  background: #131e37;
+  color: white;
+  left: 46%;
+}
+
+#banner button:hover {
+  background-color: white;
+  color: #131e37;
+  transition-duration: 0.8s;
+}
+
+/* ------------------------------------------------------------------------------------------------------------- */
+
+#main {
+  background-color: whitesmoke;
+}
+
+#main h1 {
+  text-align: center;
+  margin-top: 30px;
+}
+
+#main #p1 {
+  padding-top: 20px;
+  text-align: center;
+  font-size: 25px;
+  font-weight: 400;
+  color: #000000;
+  font-style: italic;
+}
+
+#main #p2 {
+  text-align: center;
+  font-size: 25px;
+  font-weight: 400;
+  color: #000000;
+  font-style: italic;
+}
+
+.deepak {
+  display: flex;
+  flex-direction: row;
+  height: 400px;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.box {
+  margin-top: 20px;
+  height: 377px;
+  width: 329px;
+  border: 1px solid black;
+  text-align: center;
+  padding-top: 10px;
+  box-shadow: 1px 3px 6px black;
+  border-radius: 5px;
+}
+
+.box i {
+  color: green;
+  font-size: 45px;
+}
+
+.box i:hover {
+  opacity: 0.5;
+}
+
+.box:hover {
+  box-shadow: 4px 8px 10px red;
+  transition-duration: 1s;
+}
+
+.box button {
+  border: 2px solid #131e37;
+  background-color: #131e37;
+  padding: 5px;
+  color: white;
+  border-radius: 25%;
+}
+
+#div5 {
+  text-align: center;
+}
+
+#div5 i {
+  font-size: 25px;
+  font-weight: 400;
+}
+
+.div6 {
+  display: flex;
+
+  margin-top: 20px;
+}
+
+
+
+.div6 .div7 img {
+  width: 190%;
+  height: 600px;
+}
+
+.div6 .div8 img {
+  width: 78%;
+  height: 298px;
+  margin-left: 308px;
+  margin-right: 615px;
+}
+
+#div9 {
+  text-align: center;
+}
+
+#div9 i {
+  font-size: 25px;
+  font-weight: 400;
+}
+
+.div10 {
+  display: flex;
+
+  margin-top: 20px;
+}
+
+.div10 .div11 img {
+  width: 200%;
+  height: 600px;
+}
+
+.div10 .div12 img {
+  width: 68%;
+  height: 298px;
+  margin-left: 320px;
+  margin-right: -130px;
+}
+
+.div13 button {
+  border: 2px solid #131e37;
+  border-radius: 27px;
+  padding: 12px 35px;
+  color: #fff;
+  font-weight: 500;
+  background: #131e37;
+  text-transform: capitalize;
+  margin-left: 42%;
+  margin-top: 20px;
+}
+
+.div13 button:hover {
+  background-color: #fff;
+  color: #131e37;
+  transition-duration: 1s;
+}
+
+#div14 {
+  text-align: center;
+}
+
+#div14 i {
+  font-size: 25px;
+  font-weight: 400;
+}
+
+/* -------------------------------------------------------------------------------------------------------------- */
+
+footer {
+  margin-top: 20px;
+  height: 300px;
+  width: 100%;
+  background-image: -webkit-linear-gradient(268deg, #26537f 0%, white 100%);
+}
+
+#xyz {
+  display: flex;
+  justify-content: space-around;
+}
+
+#xyz p {
+  margin-top: 40px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+#xyz p:hover {
+  text-decoration: underline;
+  color: white;
+}
+
+#xyz a,
+li {
+  color: white;
+  text-decoration: none;
+}
+
+#xyz li a:hover {
+  color: yellow;
+}
